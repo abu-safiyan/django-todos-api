@@ -62,20 +62,25 @@ DEBUG=True
 ALLOWED_HOSTS=localhost,127.0.0.1
 ```
 
-### 4. Apply migrations
+### 4. Make migrations
 
 ```bash
 python manage.py makemigrations
+```
+
+### 5. Apply migrations
+
+```bash
 python manage.py migrate
 ```
 
-### 5. (Optional) Create a superuser for the admin site
+### 6. Create a superuser for the admin site
 
 ```bash
 python manage.py createsuperuser
 ```
 
-### 6. Run the development server
+### 7. Run the development server
 
 ```bash
 python manage.py runserver
