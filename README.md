@@ -65,6 +65,7 @@ ALLOWED_HOSTS=localhost,127.0.0.1
 ### 4. Apply migrations
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
